@@ -12,6 +12,8 @@
 		95ADA06D2C02F61500E1C03B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADA06C2C02F61500E1C03B /* Item.swift */; };
 		95ADA06F2C02F61800E1C03B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95ADA06E2C02F61800E1C03B /* Assets.xcassets */; };
 		95ADA0722C02F61800E1C03B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95ADA0712C02F61800E1C03B /* Preview Assets.xcassets */; };
+		95ADA0792C02F65D00E1C03B /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADA0782C02F65D00E1C03B /* Transaction.swift */; };
+		95ADA07B2C03098F00E1C03B /* TransactionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADA07A2C03098F00E1C03B /* TransactionStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		95ADA06C2C02F61500E1C03B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		95ADA06E2C02F61800E1C03B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95ADA0712C02F61800E1C03B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95ADA0782C02F65D00E1C03B /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		95ADA07A2C03098F00E1C03B /* TransactionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +57,13 @@
 		95ADA0672C02F61500E1C03B /* BudgetTracker */ = {
 			isa = PBXGroup;
 			children = (
+				95ADA0782C02F65D00E1C03B /* Transaction.swift */,
 				95ADA0682C02F61500E1C03B /* BudgetTrackerApp.swift */,
 				95ADA06A2C02F61500E1C03B /* ContentView.swift */,
 				95ADA06C2C02F61500E1C03B /* Item.swift */,
 				95ADA06E2C02F61800E1C03B /* Assets.xcassets */,
 				95ADA0702C02F61800E1C03B /* Preview Content */,
+				95ADA07A2C03098F00E1C03B /* TransactionStore.swift */,
 			);
 			path = BudgetTracker;
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				95ADA06B2C02F61500E1C03B /* ContentView.swift in Sources */,
+				95ADA07B2C03098F00E1C03B /* TransactionStore.swift in Sources */,
 				95ADA06D2C02F61500E1C03B /* Item.swift in Sources */,
+				95ADA0792C02F65D00E1C03B /* Transaction.swift in Sources */,
 				95ADA0692C02F61500E1C03B /* BudgetTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
